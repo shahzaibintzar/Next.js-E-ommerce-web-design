@@ -10,5 +10,22 @@
     background-size: cover;
     height: 600px;
     width: 100%;    
-    opacity: 0.7;
+    opacity: 0.4;
+}
+.woman {
+    transition: 0.7s all ease-in;
+    width: 100%;
+}
+.woman:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.update{
+    background-image: url('../public//assects//images//hero_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;    
+    /* opacity: 0.5; */
 }
