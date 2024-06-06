@@ -103,8 +103,8 @@ function page() {
           <p className="font-bold">CLUB MEMBERSHIP</p>
         </div>
         </div>
-        <div>
-        </div>
+        {/* <div>
+        </div> */}
        </div>
       </div>
     </div>
