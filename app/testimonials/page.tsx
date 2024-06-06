@@ -1,9 +1,8 @@
-import React from "react";
-
+import Swiper from '@/app/(components)/Swiper'
 function page() {
   return (
     <div>
-      <h1> Testimonials</h1>
+    <Swiper/>
     </div>
   );
 }
