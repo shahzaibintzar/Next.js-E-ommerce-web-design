@@ -29,3 +29,12 @@
     width: 100%;    
     /* opacity: 0.5; */
 }
+.special{
+    background-image: url('../public//assects//images//hero_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;    
+    /* opacity: 0.4; */
+}
