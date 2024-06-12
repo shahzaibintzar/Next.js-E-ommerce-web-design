@@ -3,7 +3,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div className=''>
+    <div className='pb-20'>
      <div className='w-[200px] mx-auto py-10'>
       <p className='text-xs text-gray-500 text-center'>BLOG</p>
       <p className='text-3xl font-bold text-center'>Blog Posts</p>
