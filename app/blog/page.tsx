@@ -16,7 +16,7 @@ function page() {
       <div className='flex gap-3 pt-3'>
         <p className=''>Ham Brook</p>
         <span className='font-bold'>.</span>
-        <p className=''>Jan 18, 2019</p>
+        <p className=''>Jan 18, 2020</p>
         <span className='font-bold'>.</span>
         <p className='text-orange-500'>News</p>
       </div>
