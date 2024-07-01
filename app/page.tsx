@@ -7,10 +7,11 @@ import { IoIosCall } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { TiThMenu } from "react-icons/ti";
 import Link from "next/link";
+import Products from "./(components)/Products/Products";
 
 function page() {
   return (
-    <div>
+    <>
       <div className="flex justify-around h-20 bg-slate-300 items-center ">
         <div className="flex gap-1">
           <BiLogoFacebookCircle className="h-8 w-8 cursor-pointer" />
@@ -42,43 +43,43 @@ function page() {
         <div className="hidden sm:block">
           <div className="flex gap-4 ">
             <Link
-              href={"/home"}
+              href={"/"}
               className="hover:text-orange-400 cursor-pointer font-light"
             >
               Home
             </Link>
-            <Link
-              href={"/products"}
+            <Link 
+              href={"#"}
               className="hover:text-orange-400 cursor-pointer font-light"
             >
               Products
             </Link>
             <Link
-              href={"/aboutUs"}
+              href={"#"}
               className="hover:text-orange-400 cursor-pointer font-light"
             >
               About Us
             </Link>
             <Link
-              href={"/special"}
+              href={"#"}
               className="hover:text-orange-400 cursor-pointer font-light"
             >
               Special
             </Link>
             <Link
-              href={"/testimonials"}
+              href={"#"}
               className="hover:text-orange-400 cursor-pointer font-light"
             >
               Testimonials
             </Link>
             <Link
-              href={"/blog"}
+              href={"#"}
               className="hover:text-orange-400 cursor-pointer font-light"
             >
               Blog
             </Link>
             <Link
-              href={"/contect"}
+              href={"#"}
               className="hover:text-orange-400 cursor-pointer font-light"
             >
               Contect
@@ -107,7 +108,10 @@ function page() {
         </div> */}
        </div>
       </div>
-    </div>
+      <div className="">
+      <Products />
+      </div>
+    </>
   );
 }
 
