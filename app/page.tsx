@@ -8,6 +8,11 @@ import { MdEmail } from "react-icons/md";
 import { TiThMenu } from "react-icons/ti";
 import Link from "next/link";
 import Products from "./(components)/Products/Products";
+import AboutUs from "./(components)/AboutUs/AboutUs";
+import Special from "./(components)/Special/Special";
+import Testimonials from "./(components)/Testimonials";
+import Blog from "./(components)/Blog/Blog";
+import Contect from "./(components)/Contect/Contect";
 
 function page() {
   return (
@@ -49,14 +54,15 @@ function page() {
               Home
             </Link>
             <Link 
-              href={"#"}
+              href={"products"}
               className="hover:text-orange-400 cursor-pointer font-light"
             >
               Products
             </Link>
             <Link
+            
               href={"#"}
-              className="hover:text-orange-400 cursor-pointer font-light"
+              className="  hover:text-orange-400 cursor-pointer font-light"
             >
               About Us
             </Link>
@@ -108,8 +114,23 @@ function page() {
         </div> */}
        </div>
       </div>
-      <div className="">
+      <div className="product">
       <Products />
+      </div>
+      <div className="">
+        <AboutUs/>
+      </div>
+      <div className="">
+        <Special/>
+      </div>
+      {/* <div> */}
+        {/* <Testimonials/> */}
+      {/* </div> */}
+      <div>
+        <Blog/>
+      </div>
+      <div>
+        <Contect/>
       </div>
     </>
   );
